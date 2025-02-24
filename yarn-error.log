@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add tailwindcss shadcn/ui @supabase/supabase.js express socket.io
+
+PATH: 
+  /bin:/usr/bin:/usr/local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.20.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@supabase%2fsupabase.js: Not found
+      at params.callback (/usr/local/lib/node_modules/yarn/dist/yarn.js:56516:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/dist/yarn.js:124821:22)
+      at Request.emit (node:events:30:10899)
+      at Request.eval (/usr/local/lib/node_modules/yarn/dist/yarn.js:125793:10)
+      at Request.emit (node:events:30:10899)
+      at IncomingMessage.eval (/usr/local/lib/node_modules/yarn/dist/yarn.js:125715:12)
+      at Object.onceWrapper (node:events:30:7970)
+      at IncomingMessage.emit (node:events:30:11015)
+      at endReadableNT (node:internal/streams/readable:225:8116)
+      at processTicksAndRejections (node:internal/process/task_queues:192:1067)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
